@@ -4,7 +4,7 @@ from flask_cors import CORS
 from flask_login import UserMixin, login_user, LoginManager, login_required, logout_user, current_user
 
 application = Flask(__name__)
-application.config['SECRET_KEY'] = 'lelezinha'
+application.config['SECRET_KEY'] = ''
 application.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///ecommerce.db'
 
 login_manager = LoginManager()
